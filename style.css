@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh ;
+    text-align: center;
+    opacity: 90%;
+   background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+.container{
+    
+    border: 2 px solid red;
+    width: 650px;
+    height: 550px;
+
+   
+}
+.header{
+    background-color: rgb(30, 29, 29);
+    color: white;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.main-content{
+width: 80%;
+height: 300px;
+background-color: white;
+border-radius: 15px;
+padding: 50px 40px;
+box-shadow: 0 0 10px;
+margin:2px auto;
+
+}
+.main-content .text-area{
+font-size: 1.2rem;
+line-height: 1.5;
+}
+.main-content .person{
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.btn-div .btn{
+    background-color: rgb(30, 29, 29);
+    color: white;
+    font-size: 2 rem;
+    width: 120px;
+    height: 40px;
+    padding: 10px 15px ;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+    
+}
+
+.btn-div .btn:active{
+background-color: rgb(146, 146, 179);
+color: white;
+}
+
+
+
+
